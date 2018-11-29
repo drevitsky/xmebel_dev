@@ -25,6 +25,12 @@ $(document).ready(function(){
 			});
 	// Fancybox
 	$('.image-box').fancybox();
+//   var popup_link = '<a id="popup_link" href="www.example.com/example"></a>';
+// console.log(popup_link);
+// $('.fancybox-inner').append(popup_link);
+$("a.inline").fancybox({
+    'hideOnContentClick': true
+  });
 	//  lazy-load 
 	// $('.lazy-load').addClass('not-load');
 	 var test = $('.lazy-load.not-load').slice(0, 10).removeClass('not-load');

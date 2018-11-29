@@ -9,7 +9,7 @@
 //= ./tooltip.js
 //= ./popover.js
 
-/// = ./modal.js
+// = ./modal.js
 
 //= ./isotope.js
 //= ./scripts.js
