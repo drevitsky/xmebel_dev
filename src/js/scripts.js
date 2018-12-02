@@ -33,12 +33,12 @@ $("a.inline").fancybox({
   });
 	//  lazy-load 
 	// $('.lazy-load').addClass('not-load');
-	 var test = $('.lazy-load.not-load').slice(0, 10).removeClass('not-load');
+	 var test = $('.lazy-load.not-load').slice(0, 6).removeClass('not-load');
 	 isotope.isotope();
 	
 	 $('#btn-load').on('click',function(e){
 	 	e.preventDefault();
-	 	$('.lazy-load.not-load').slice(0, 4).removeClass('not-load');
+	 	$('.lazy-load.not-load').slice(0, 6).removeClass('not-load');
 	 	isotope.isotope()
 	 })
 	 

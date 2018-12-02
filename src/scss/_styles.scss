@@ -1029,6 +1029,12 @@ iframe {
 .product {
 	overflow:hidden ;
 	margin: 3rem 0;
+	padding-bottom: 1rem;
+	border-bottom:  1px solid $text-color;
+	&__inline {
+		// width: 60rem;
+		// 	height: 78rem;
+	}
 
 	&__imagebox {
 		//width: 20rem;
@@ -1069,6 +1075,7 @@ iframe {
 			right: 0;
 			background-color: rgba(#fff, 0.4);
 			align-items:flex-end;
+
 		}
 	}
 }
@@ -1081,7 +1088,7 @@ iframe {
 
 .more {
 	text-decoration: none;
-	font-size: 3rem;
+	font-size: 2rem;
 	padding: 0.5rem;
 	// border: 1px solid $text-color;
 	color: $red-color;
