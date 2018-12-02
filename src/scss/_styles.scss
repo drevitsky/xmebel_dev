@@ -273,6 +273,10 @@ body {
 	width: auto;
 	background-color: $red-color;
 	margin-right: 4rem;
+	@media screen and (max-width: 576px) {
+	 	margin: 0 auto;
+	   
+		}
 }
 // lazy-load
 
@@ -537,6 +541,8 @@ input::placeholder {
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+	background-position: right;
+	 
 }
 .section__about--second {
 	padding: 7rem 0 2.5rem;
@@ -548,12 +554,18 @@ input::placeholder {
 
 .img-caption {
     position: absolute;
+    left: 0;
     bottom: 30%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
+    @media screen and (max-width:768px) {
+	 bottom: 0;
+	   
+	}
+
 }
 .col-title {
 	text-transform: uppercase;
@@ -572,7 +584,7 @@ input::placeholder {
 @media screen and (max-width: 768px) {
 	.section__about--head {
 		background:$bg-gray !important;
-
+		height: 15rem;	
 	}
 	
 	.navbar-brand img {
@@ -1060,6 +1072,10 @@ iframe {
 		display: flex;
 		justify-content: space-around;
 		font-size: 5rem;
+		@media screen and (max-width: 576px) {
+	 	font-size: 3.5rem;
+	   
+		}
 		&--old {
 			text-decoration: line-through;
 
@@ -1134,6 +1150,7 @@ iframe {
 	}
 	&-btn {
 		font-size: 1.5rem;
+		line-height: 1.8rem;
 		color: $red-color;
 		border: 1px solid $red-color;
 		background-color: #fff;
@@ -1150,5 +1167,9 @@ iframe {
 	}
 	&-tel {
 		font-size: 3rem;
+		@media screen and (max-width: 576px) {
+	 	font-size: 2rem;
+	   
+		}
 	}
 }
