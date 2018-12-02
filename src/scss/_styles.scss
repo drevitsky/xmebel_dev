@@ -1091,6 +1091,13 @@ iframe {
 			right: 0;
 			background-color: rgba(#fff, 0.4);
 			align-items:flex-end;
+			@media screen and (max-width: 576px) {
+	 			flex-direction: column;
+	 			top: 0;
+	 			right: auto;	
+	   
+			}
+			 
 
 		}
 	}
